@@ -5,24 +5,92 @@ body {
 #mainHeader {
     border-color: #cccccc;
     background-color: #ffffff;
-    
+    padding-top: 25px;
+    padding-bottom: 45px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #header {
     width: 960px;
     margin: 0px auto;
+         
 }
+
+#name {
+    text-align: left;
+    font-family: "Georgia", "Times New Roman", "Times", "Serif";
+    font-size: 24pt;
+    font-weight: bold;   
+}
+
+#menu {
+    float: right;
+    padding-top: 0px;
+}
+
 
 #mainContent {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
-    margin: 50px auto;
+    margin: 100px auto;
+    font-family: "Arial", "Helvetica", "sans-serif"; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;     
 }
 
 #footer {
     background-color: #666666;
-    text-align: center;
+    text-align: center;    
+    border-top: 8px; 
+    border-top-style: solid;
+    color: #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;        
 }
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    border-bottom: 2px solid #666666;
+    padding-bottom: 18px;
+}
+
 
 
