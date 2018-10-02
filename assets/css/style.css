@@ -1,0 +1,28 @@
+body {
+    background-color: #dddddd;
+}
+
+#mainHeader {
+    border-color: #cccccc;
+    background-color: #ffffff;
+    
+}
+
+#header {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#mainContent {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    margin: 50px auto;
+}
+
+#footer {
+    background-color: #666666;
+    text-align: center;
+}
+
+
