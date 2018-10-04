@@ -1,4 +1,18 @@
-#mainHeader { 
+body {
+    background-color: #dddddd;
+}
+
+#mainHeader {
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    padding-right: 40px;
+    padding-left: 40px;   
+    border-bottom: 3px solid #cccccc;
+    
+}
+
+#mainHeader2 { 
     background-color: #ffffff;
     padding-top: 25px;
     padding-bottom: 10px;
@@ -6,13 +20,32 @@
     padding-left: 40px;   
     border-bottom: 3px solid #cccccc;
 }
- 
+
 #header {
+    width: 960px;
+    margin: 0px auto;
+             
+}
+
+#header2 {
     width: 860px;
     margin: 0px auto;
 }
 
 #name {
+    text-align: left;
+    font-family: "Georgia", "Times New Roman", "Times", "Serif";
+    font-size: 26pt;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    padding: 45px;
+    padding-top:25;
+    background-color: #4aaaa5;
+}
+
+#name2 {
     text-align: left;
     font-size: 24;
     color: #ffffff;
@@ -26,18 +59,29 @@
     background-color: #4aaaa5;
 }
 
+
 #menu {
     float: right;
-    padding-top: 0px;
-    font-family: "Arial", "Helvetica", "sans-serif";
-    font-size: 16;
+    padding-top: 20px;
+    font-family: "Arial", "Helvetica", "sans-serif"; 
+    font-size: 16; 
     color: #666666;
 }
 
-#body {
-   background-color: #dddddd; 
+
+#indexMain {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 100px auto;
+    font-family: "Arial", "Helvetica", "sans-serif"; 
+    color: #666666;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;     
 }
- #mainContent {
+
+#contactMain {
     width: 860px;
     background-color: #ffffff;
     margin: 100px auto;
@@ -49,23 +93,31 @@
     padding-left: 25px;
  }
 
- h2 {
-     border-bottom: 2px solid #dddddd;
-     padding-bottom: 18px;
-     color: #4aaaa5;
-     font-family: "Georgia", "Times New Roman", "Times", Serif";
- }
+#footer {
+    background-color: #666666;
+    text-align: center;    
+    color: #ffffff;  
+    border-top: 8px solid #4aaaa5; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+   
+}
 
- #footer {
-     background-color: #666666;
-     text-align: center;
-     color: #ffffff;
-     border-top: 8px solid #4aaaa5;
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
- }
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 18px;
+    color: #4aaaa5;
+    font-family: "Georgia", "Times New Roman", "Times", "Serif";
+}
+
+
 
 
 
