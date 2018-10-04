@@ -6,9 +6,9 @@ body {
     background-color: #ffffff;
     padding-top: 25px;
     padding-bottom: 45px;
-    padding-right: 40px;
-    padding-left: 40px;   
-    border-bottom: 3px solid #cccccc;
+    padding-right: 45px;
+    padding-left: 45px;   
+    border-bottom: 4px solid #cccccc;
     
 }
 
@@ -18,25 +18,25 @@ body {
     padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 40px;   
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
 }
 
 #header {
-    width: 960px;
+    width: 1000px;
     margin: 0px auto;
              
 }
 
 #header2 {
-    width: 860px;
+    width: 880px;
     margin: 0px auto;
 }
 
 #name {
-    text-align: left;
-    font-family: "Georgia", "Times New Roman", "Times", "Serif";
-    font-size: 26pt;
+    text-align: left;    
+    font-size: 26pt;    
     font-weight: bold;
+    font-family: "Georgia", "Times New Roman", "Times", "Serif";
     color: #ffffff;
     width: 100px;
     height: 100px;
@@ -54,18 +54,17 @@ body {
     width: 100px;
     height: 100px;
     padding: 45px;
-    padding-top: 35;
+    padding-top: 25;
     padding-bottom: 10;
     background-color: #4aaaa5;
-}
+ }
 
 
 #menu {
     float: right;
-    padding-top: 20px;
     font-family: "Arial", "Helvetica", "sans-serif"; 
     font-size: 16; 
-    color: #666666;
+    color: #666666;    
 }
 
 
@@ -84,13 +83,13 @@ body {
 #contactMain {
     width: 860px;
     background-color: #ffffff;
-    margin: 100px auto;
+    margin: 30px auto;
     font-family: "Arial", "Helvetica", "sans-serif";
     color: #666666;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
+    padding-top: 3;
+    padding-left: 10;
+    padding-right: 10; 
+    padding-bottom: 15;   
  }
 
 #footer {
@@ -115,6 +114,20 @@ h2 {
     padding-bottom: 18px;
     color: #4aaaa5;
     font-family: "Georgia", "Times New Roman", "Times", "Serif";
+}
+
+.buttonstyle { 
+    background: #4aaaa5; 
+    border: solid 2px #4aaaa5; 
+    color: #ffffff;
+    height: 40px;   
+    width: 100;
+    font-size: 16;
+}
+
+input {
+    width: 860px;
+    height: 33px;   
 }
 
 
