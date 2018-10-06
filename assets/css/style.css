@@ -1,5 +1,6 @@
 body {
     background-color: #dddddd;
+    margin: 0;
 }
 
 #mainHeader {
@@ -129,7 +130,7 @@ body {
     padding-top: 3;
     padding-left: 10;
     padding-right: 10; 
-    padding-bottom: 15; 
+    padding-bottom: 610; 
  }
 
 
@@ -141,14 +142,44 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;  
-   
+    width: 100%;     
+}
+
+p {
+    padding-top: 10px;
 }
 
 img {
     float: left;
     margin-right: 10px;
 }
+
+
+#images:hover {
+    border: 1px solid #777;
+}
+
+
+#images {
+    width: 200px;
+    height: 200px;
+    float: left;    
+    border: 1px solid #666666; 
+}
+
+.column {
+    float: left;
+    width: 230px;
+    margin-right: 10;
+  }  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 
 h2 {
     border-bottom: 2px solid #dddddd;
@@ -159,13 +190,21 @@ h2 {
 
 
 
-.buttonstyle { 
+.button { 
     background: #4aaaa5; 
-    border: solid 2px #4aaaa5; 
+    border: solid 1px #666666; 
     color: #ffffff;
     height: 40px;   
     width: 100;
     font-size: 16;
+}
+
+.button:hover {
+    background-color: #666666
+}
+
+.button:active {
+    background-color: #cccccc
 }
 
 input {
@@ -173,24 +212,7 @@ input {
     height: 33px;   
 }
 
-row {
-    box-sizing: border-box;
-    width: 860px;
-    height: 45px;
-}
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 
 
